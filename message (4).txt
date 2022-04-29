@@ -1,0 +1,636 @@
+/* Made by Alex The God#4645 */
+	/* Dont fucking leak it*/
+	
+
+/* Ad Block */
+#ad-bottom,
+#ad-left {
+	width: 0px !important;
+}
+/* Change Font */
+@font-face {
+	src: url('Silent Reaction.ttf');
+	font-family: 'Silent-Reaction';
+	font-style: normal;
+}
+body {
+	font-family: monospace;
+}
+body {
+  --green-1: var(--accentCompliment);
+  --primary-1: var(--accentColor);
+}
+
+/* Important Shit */
+:root {
+  --baseColor: #0000;
+  --baseColorRGB: 37, 37, 37;
+  --baseColorVariant: #000;
+  --accentColor: #8614148c;
+  --accentColorr: #930000;
+  --accentColorRGB: 81, 0, 22;
+  --accentCompliment: #ffffff78;
+  --accentComplimentss: #1400c4;
+    
+  --dotSize: 0.2rem;
+}
+
+/* Right Interface */
+
+div.levels {
+background: transparent !important;
+}
+.soc-group:nth-child(1) {
+    display: none;
+}
+.settings {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: transparent !important;
+    border: none;
+}
+
+
+div.select-mods-cont {
+background: transparent !important;
+backdrop-filter: blur(10px);
+border: none !important;
+}
+div.select-mod {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+hr {
+	display: none;
+}
+#play-btn {
+	--top: transparent !important;
+	--bottom: transparent !important;
+}
+div.select-mods-cont {
+	left: -52rem;
+	height: 600px !important;
+}
+.right-icons .icon-btn, .inventory-card  {
+    width: 140px !important;
+}
+div.map-title:after {
+	content: "Made By Alex The God#4645"
+}
+#play > div > div.play-content-up > div > div {
+  position: absolute;
+  left: calc(50% - 61rem) !important;
+  top: calc(50% - 40.75rem) !important;
+  width: 30rem !important;
+  height: 45.75rem !important;
+  border: 2px solid var(--accentColor) !important;
+  overflow: visible;
+}
+div.mode-title {
+	visibility: hidden;
+}
+div.map-title {
+	visibility: hidden;
+}
+div.map-title:after {
+	content: "Made By Alex The God#4645";
+	visibility: visible;
+	
+}
+#play-btn {
+    transform: none !important;
+    border-radius: 0;
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+div.select-regions-cont {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+	backdrop-filter: blur(10px);
+}
+div.select-region {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+.right-icons .icon-btn, .inventory-card  {
+    width: 150px !important;
+	height: 75px !important;
+	background: transparent !important;
+	border: none !important;
+	border: 3px solid var(--accentColor) !important;
+}
+
+
+/****************************************************/
+/* Left Interface */
+.left-icons .icon-btn {
+    background: transparent;
+    border-top: none;
+    border-bottom: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 0px;
+}
+.left-icons .icon-btn .text-icon {
+    display: none;
+}
+.left-icons,
+.left-icons > div {
+display: flex !important;
+flex-direction: row !important;
+}
+
+.left-icons .text-icon {
+    display: none !important;
+}
+
+.left-icons .icon-btn {
+    background: transparent !important;
+    border-top: none !important;
+    border-bottom: none !important;
+	margin: 50px;
+}
+.left-icons .icon-btn[style="--i:5;"] {
+	visibility: hidden;
+}
+div.card-cont.user-info {
+background: transparent !important;
+border: 3px solid var(--accentColor) !important;
+}
+div.progress-label {
+visibility: hidden;
+}
+div.card-cont.avatar-info {
+background: transparent !important;
+border: 3px solid var(--accentColor) !important;
+}
+#left-icons {
+  position: fixed;
+  height: 10rem;
+  width: 42rem;
+  border: 3px solid var(--accentColor);
+  background: var(--baseColor);
+  overflow: visible;
+  align-items: center;
+}
+#left-icons > div {
+  z-index: 1;
+}
+#left-icons {
+	margin-top: 29.75%;
+	margin-left: 0%;
+}
+/*****************************************************/
+/* Logo and Misc. */
+#logo {
+	visibility: hidden;
+}
+#left-interface > div.moneys {
+  position: fixed;
+  left: 20.5rem;
+  margin-top: .5rem !important;
+  flex-direction: column;
+}
+#left-interface > div.moneys > div {
+  height: 3rem;
+  justify-content: left;
+}
+.money {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+div.top-items,
+div.bottom-items {
+background: transparent !important;
+border: 3px solid var(--accentColor) !important;
+}
+div.item {
+	background-color: var(--baseColor) !important;
+}
+div.nickname {
+	color: var(--accentColor) !important;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #000, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+  }
+}
+
+.heads .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+.team-score .red {
+    position: fixed !important;
+    left: 40%;
+    transform: none !important;
+}
+.team-score .blue{
+    position: fixed;
+    right: 40%;
+}
+.timer {
+    position: fixed !important;
+    left: 47.5%;
+    bottom: 91%;
+}
+.red,
+.red-team {
+  background: var(--baseColor) !important;
+  border: 2px solid var(--accentColorr);
+  box-shadow: none !important;
+}
+
+.blue,
+.blue-team {
+  background: var(--baseColor) !important;
+  border: 2px solid var(--accentComplimentss);
+  box-shadow: none !important;
+}
+.live-streams {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.live-streams:hover {
+    opacity: 1;
+}
+div.friend,
+div.delete,
+div.level-cont {
+background: transparent !important;
+	border: none !important;
+}
+div.friend {
+	border: 3px solid var(--accentColor) !important;
+}
+button.button.btn {
+transform: none !important;
+border-radius: 0;
+--top: transparent !important;
+--bottom: transparent !important;
+}
+div.reqs {
+	background-color: var(--baseColor) !important;
+}
+div.add {
+	background: transparent !important;
+	border: none !important;
+}
+div.right-container, 
+div.player,
+div.btn-invite,
+div.level,
+div.change-container {
+background: transparent !important;
+backdrop-filter: blur(10px);
+}
+div.player {
+	backdrop-filter: blur(0px);
+}
+div.lvl-leader {
+background: transparent !important;
+}
+img.champion {
+	visibility: hidden;
+}
+img.award-img {
+	visibility: hidden;
+}
+div.info-awards {
+	visibility: hidden;
+}
+div.progress-line {
+background: transparent !important;
+}
+div.esc-interface {
+	background: transparent !important;
+	backdrop-filter: blur(10px);
+}
+div.selected {
+	background-color: var(--accentColor) !important;
+}
+div.level-value {
+background: transparent !important;
+	backdrop-filter: blur(0px);
+}
+div.content.text-2 {
+border: 3px solid var(--accentColor) !important;
+}
+button.button.take-awards {
+transform: none !important;
+border-radius: 0;
+background: transparent !important;
+	--top: transparent !important;
+	--bottom: transparent !important;
+}
+div.hover-btns-group {
+border: 3px solid var(--accentColor) !important;
+}
+.botom-subj .count {
+    background: transparent;
+}
+div.chest-wrapper {
+border: 3px solid var(--accentColor) !important;
+}
+button.button.close.rectangle {
+background-color: var(--baseColor) !important;
+	--top: none !important;
+	--bottom: none !important;
+}
+div.tab.active {
+border-bottom: 5px solid var(--accentColor) !important;
+}
+div.box {
+	background: transparent !important;
+	border: none !important;
+	backdrop-filter: blur(100px) !important;
+}
+input.input {
+border: 2px solid var(--accentColor) !important;
+}
+div.scrollbar-cont {
+	background-color: #000 !important;
+}
+div.card.progress {
+background: transparent !important;
+}
+div.server {
+background: transparent !important;
+}
+div.messages.messages-cont.small {
+background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+span.name {
+	color: var(--accentColor) !important;
+}
+div.img-bg,
+img.image {
+	display: none !important;
+}
+div.preview.text-2 {
+	display: none;
+}
+div.rules {
+visibility: hidden;
+}
+div.settings {
+background: transparent !important;
+backdrop-filter: blur(10px) !important;
+}
+/*****************************************************/
+/* Backgrounds and Shit */
+
+#app > div.interface.text-2 > div.background{
+  background: url(https://th.bing.com/th/id/R.1b5c7c64f6b55e0ad218dc48ed13ddf8?rik=uqpur32tpyd3XA&pid=ImgRaw&r=0) no-repeat center center fixed; 
+  background-size: cover;
+	backdrop-filter: blur(100px);
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial{
+  display: none !important;
+	-webkit-animation: animate 10s linear infinite!important;
+}
+
+.loading-scene .background {
+	background: url(https://th.bing.com/th/id/R.1b5c7c64f6b55e0ad218dc48ed13ddf8?rik=uqpur32tpyd3XA&pid=ImgRaw&r=0) no-repeat center center fixed;
+	background-size: cover;
+}
+
+div.end-modal.background {
+    background: url(https://th.bing.com/th/id/R.1b5c7c64f6b55e0ad218dc48ed13ddf8?rik=uqpur32tpyd3XA&pid=ImgRaw&r=0) no-repeat center center fixed;
+	background-size: cover;
+}
+
+/**************************************************/
+/* Transparent Containers & Removed Borders/ Backgrounds */
+.clans, .hub-container, .mobile-fullscreen, .add-friends, .tab-bar, .top-items, .subject, .inventory .avatar, .inventory .bottom {
+    background: transparent !important;
+}
+
+.head-text, .reset-time, .info-awards, .news, .list-cont, .card-profile, .profile .k-d, .profile .statistics, .profile-cont .progress[data-v-d2be3bc6] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+}
+
+.active-tab, .tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.limit {
+    border-left: none !important;
+}
+
+.top-bar, .home, .name-page {
+    display: none !important;
+}
+
+.container {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+}
+
+.champions-list {
+    box-shadow: none !important;
+}
+
+.subjects, .gun {
+    background: transparent !important;
+    border: none !important;
+}
+
+.profile .you {
+    visibility: hidden;
+}
+div.label {
+	visibility: hidden;
+}
+input.input {
+	background: transparent !important;
+}
+div.champions-list {
+	background: transparent !important;
+	border: 3px solid var(--baseColor) !important;
+}
+div.card-cont.soc-group {
+background: transparent !important;
+border: 3px solid var(--accentColor) !important;
+}
+button.button.join{
+     --top: transparent !important;
+     --bottom: transparent !important;
+}
+button.button.join {
+	transform: none !important;
+	border-radius: 0;
+}
+/***************************************/
+/* HUD */
+.mini-map-cont .name,
+.info-key-cont,
+.list-weapons,
+.hp-title,
+.mWwn,
+.instruction {
+	display: none !important;
+}
+
+.hp {
+	margin-right: 20%;
+}
+.hp-progress-cont {
+	background: transparent !important;
+}
+.hp-progress {
+	background: #000 !important;
+}
+
+.desktop-game-interface .state {
+	position: fixed;
+	left: 37% !important;
+}
+
+.cont-endurance {
+	margin-left: 1.5%;
+    background: #000 !important;
+	
+}
+.endurance-progress[data-v-57051149] {
+    border-radius: 0.188rem;
+    background: var(--accentColor);
+    height: 0.7rem;
+    transition: width 0.6s ease;
+}
+.weapons-cont {
+	position: fixed;
+	width: 300px;
+	top: 95%;
+	left: 5%;
+	margin-top: -100px;
+	margin-left: 252px ;
+}
+div.gun {
+border: 3px solid var(--accentColor) !important;
+	backdrop-filter: blur(10px);
+}
+
+.ammunition {
+	display: inline-block;
+    position: fixed;
+    left: calc(38% + 188px);
+}
+
+.kill-death {
+	position: fixed;
+	right: 1px;
+	bottom: 2%;
+	left: unset !important;
+	top: unset !important;
+}
+button.button.right-btn.invite2.rectangle::after {
+background-color: transparent !important;
+}
+button.button.continue.rectangle.animation {
+color: transparent !important;
+}
+div.cont {
+background-color: transparent !important;
+border: 3px solid var(--accentColor) !important;
+}
+div.close {
+	background-color: #000 !important;
+}
+.cont-background {
+	background: transparent !important;
+}
+.kill,
+.death {
+	background-color: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+button.button.right-btn.rectangle {
+background-color: transparent !important;
+border: 3px solid var(--accentColor) !important;
+	--top: transparent !important;
+	--bottom: transparent !important;
+}
+button.button.continue.rectangle.animation {
+background: transparent !important;
+border: 3px solid var(--accentColor) !important;
+	--top: transparent !important;
+	--bottom: transparent !important;
+}
+.timer {
+	background: transparent !important;
+	border: 3px solid var(--accentColor) !important;
+}
+.cont-endurance {
+	background-color: transparent !important;
+}
+div.cont-cont {
+background: transparent !important;
+}
+#app > div.game-interface > div.desktop-game-interface > div.kill-bar-cont > div > svg,
+#app > div.game-interface > div.ach-cont > div.achive-cont > svg > path:nth-child(3) {
+  fill: var(--accentColor) !important;
+	background-color: var(--accentColor) !important;
+}
+div.kill-bar.background {
+	background-color: var(--accentColor) !important;
+}
+/*******************************************/
+/* Kill Icon */
+.achive-cont {
+  content: url(https://media.discordapp.net/attachments/962411500570562661/963241307344633896/unknown.png?width=427&height=427) !important;
+  position: fixed;
+  right: 40%;
+	height: 300px;
+	width: 300px;
+	-webkit-animation: animate 10s linear infinite!important;
+}
+/*********************************************/
+/*  Win Screen & Loading Scene */
+#app > div.game-interface > div.container-pre-end > div.left-cont > div {
+  background: rgba(var(--accentColorRGB), 0.8);
+}
+#app > div.game-interface > div.container-pre-end > div.center-cont > div > div.bg-center > div {
+  background: radial-gradient(50% 50% at 50% 50%, var(--accentColor) 0, rgba(var(--accentColorRGB), 1) 100%);
+}
+#app > div.game-interface > div.container-pre-end > div.center-cont {
+  background: rgba(0, 0, 0, 0.25);
+  border: 0.5rem solid var(--accentColor);
+}
+#app > div.game-interface > div.container-pre-end > div.center-cont > div {
+  border: 0.5rem solid var(--accentColor);
+  border-radius: 1rem;
+}
+#app > div.game-interface > div.container-pre-end > div.left-cont,
+#app > div.game-interface > div.container-pre-end > div.right-cont {
+  background: var(--accentColor);
+}
+#app > div.interface.text-2 > div.searching-game > div.center {
+  background: linear-gradient(90.02deg, rgba(0, 0, 0, 0) 0.02%, rgba(0, 0, 0, 0.75) 19.8%, rgba(0, 0, 0, 0.75) 81.76%, rgba(0, 0, 0, 0) 99.98%);
+}
+#app > div.interface.text-2 > div.searching-game > div.top {
+  background: linear-gradient(90.02deg, transparent 0.02%, rgba(var(--accentColorRGB), 0.85) 25.53%, var(--accentColor) 71.86%, transparent 99.98%);
+}
+#app > div.interface.text-2 > div.searching-game > div.bottom,
+.bottom[data-v-6c108d70] {
+  background: linear-gradient(90deg, transparent 0.2%, rgba(var(--accentColorRGB), 0.85) 5%, var(--accentColor) 50%, transparent 99.98%);
+  box-shadow: none;
+}
